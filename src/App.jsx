@@ -24,7 +24,7 @@ function App() {
         <Hero />
         <TechOrbit />
         <About />
-        <Stats />
+        {/* <Stats /> */}
         <Projects />
         <MiniProjects />
         <Skills />
