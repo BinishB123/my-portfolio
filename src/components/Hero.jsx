@@ -9,12 +9,7 @@ const ICONS = {
   Mail: MailIcon,
 };
 
-const initials = PROFILE.name
-  .split(" ")
-  .map((n) => n[0])
-  .join("")
-  .slice(0, 2)
-  .toUpperCase();
+
 
 const Hero = () => {
   return (
@@ -102,7 +97,7 @@ const Hero = () => {
                       </p>
                       <span className="inline-flex items-center gap-1.5 text-sm text-text/80">
                         <MapPin size={14} className="text-accent" />
-                        {PROFILE.location}
+                        {PROFILE.currentLocation}
                       </span>
                     </div>
                   </div>
