@@ -26,7 +26,8 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href={PROFILE.resumeUrl}
+              href={PROFILE.resumeUrl === "#" ? "/resume.pdf" : PROFILE.resumeUrl}
+              download={"Resume - " + PROFILE.name + ".pdf"}
               className="rounded-full border border-accent/50 text-accent px-5 py-2 hover:bg-accent hover:text-bg transition-colors"
             >
               Resume

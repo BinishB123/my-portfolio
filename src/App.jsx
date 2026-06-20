@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechOrbit from "./components/TechOrbit";
 import About from "./components/About";
-import Stats from "./components/Stats";
+// import Stats from "./components/Stats";
 import Projects from "./components/Projects";
 import MiniProjects from "./components/MiniProjects";
 import Skills from "./components/Skills";

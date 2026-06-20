@@ -4,6 +4,7 @@
  */
 
 import image from '../assets/ChatGPT Image Jun 20, 2026, 12_20_29 AM.png'
+import cv from '../assets/binish_b_associate_fullstack_engineer (1).pdf'
 
 export const PROFILE = {
   name: "Binish B",
@@ -14,7 +15,7 @@ export const PROFILE = {
   currentLocation:"Mumbai, India",
   email: "binishb2018@gmail.com",
   phone: "+91 8156800421", // ← your mobile number
-  resumeUrl: "#",
+  resumeUrl: cv,
   careerStart: "2023", // ← year you started — used to auto-calculate experience
   // Dummy image for preview. Replace with your own: drop a file in /public
   // (e.g. /me.jpg) and set photo: "/me.jpg". Set "" to show the code snippet.
