@@ -223,6 +223,15 @@ export const PROJECTS = [
  */
 export const MINI_PROJECTS = [
   {
+  title: "FullStack Visualized",
+  description:
+    "An interactive, beginner-friendly web application that visualizes how the modern web stack works under the hood — from JavaScript engine internals and memory management to the Node.js runtime, React internals, cloud infrastructure, CI/CD pipelines, and production deployment. Features animated step-by-step visualizations, plain-English explanations, a searchable glossary, and FAQs to help learners understand complex concepts visually.",
+  tags: ["React", "Vite", "JavaScript", "Node.js", "CI/CD", "Cloud"],
+  live: "https://fullstack-visualized-a4kw.vercel.app",
+  code: "https://github.com/BinishB123/fullstack-visualized",
+},
+
+  {
     title: "Speedo",
     description:
       "A full-stack speed typing application that measures typing speed, accuracy, and stores user performance statistics using a Node.js and MongoDB backend.",
@@ -257,15 +266,7 @@ export const MINI_PROJECTS = [
     live: "#",
     code: "#",
   },
-  {
-  title: "FullStack Visualized",
-  description:
-    "An interactive, beginner-friendly web application that visualizes how the modern web stack works under the hood — from JavaScript engine internals and memory management to the Node.js runtime, React internals, cloud infrastructure, CI/CD pipelines, and production deployment. Features animated step-by-step visualizations, plain-English explanations, a searchable glossary, and FAQs to help learners understand complex concepts visually.",
-  tags: ["React", "Vite", "JavaScript", "Node.js", "CI/CD", "Cloud"],
-  live: "https://fullstack-visualized-a4kw.vercel.app",
-  code: "https://github.com/BinishB123/fullstack-visualized",
-},
-
+  
  
 ];
 /**
